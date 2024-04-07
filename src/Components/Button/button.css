@@ -1,0 +1,12 @@
+.demo-btn{
+    border-radius: 5px;
+    background: #F28D35;
+    color: #ffff;
+    padding: 10px 32px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.demo-btn:hover{
+    background-color: green;
+}

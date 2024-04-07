@@ -1,0 +1,80 @@
+header{
+    max-height: 100vh;
+    background: url(../../assets//images//Hero.png);
+    background-size: cover;
+    background-position: center;
+}
+
+header .wrapper{
+    position: relative;
+    height: 100vh;
+}
+
+header .cta{
+    position: absolute;
+    margin-top: 35%;
+    left: 0;
+    width: 630px;
+    height: 308px;
+    background-image: linear-gradient(to right,#4DCA79,#1CBDDD );
+    padding: 10px 20px;   
+}
+
+header .cta .details{
+    color: #ffff;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+/* tablet view */
+@media (max-width:769px) {
+    header .cta {
+        width: unset;
+        margin-top: 85%;
+        height: 400px;
+        
+    }
+    header {
+        max-height: 100vh;
+        background: url(../../assets//images//Hero.png);
+        background-size: cover;
+        width: 688px;
+        background-position: center;
+        padding: 0;
+        }
+    
+        header .cta .details {
+            color: #ffff;
+            font-size: 48px;
+            font-weight: 700;
+        }
+}
+
+/* mobile view */
+@media (max-width:375px){
+.wrapper{
+    max-width: 300px;
+}
+
+header .cta {
+    width: 375px;
+    margin-top: 70%;
+    height: 294px;
+
+}
+
+header {
+    max-height: 218px;
+    background: url(../../assets//images//Hero.png);
+    background-size: cover;
+    width: 375px;
+    background-position: center;
+    padding: 0;
+}
+
+header .cta .details {
+    color: #ffff;
+    font-size: 30px;
+    font-weight: 700;
+}
+}

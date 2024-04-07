@@ -1,0 +1,36 @@
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+body{
+    margin: 0;
+    font-family: "Inter" , sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width:768px) {
+    .wrapper {
+        max-width: 688px;  
+    }
+}
+
+/* mobile view */
+/* @media (max-width:375px) {
+    .wrapper {
+        max-width: 300px;
+    }
+} */
